@@ -422,46 +422,43 @@ function sendReceiptMessage(recipientId) {
         type: "template",
         payload: {
           template_type: "receipt",
-          recipient_name: "Peter Chang",
+          recipient_name: "Alexander Figueroa",
           order_number: receiptId,
           currency: "USD",
           payment_method: "Visa 1234",        
           timestamp: "1428444852", 
           elements: [{
-            title: "Oculus Rift",
-            subtitle: "Includes: headset, sensor, remote",
-            quantity: 1,
-            price: 599.00,
+            title: "Sandwich Jr Mixto",
+            subtitle: "Con Todo pero sin Queso",
+            quantity: 2,
+            price: 6.89,
             currency: "USD",
-            image_url: "http://messengerdemo.parseapp.com/img/riftsq.png"
+            image_url: "http://d37uu5vx6wkhnq.cloudfront.net/wp-content/uploads/2015/01/elchurry1-1421945921-357x222.jpg"
           }, {
-            title: "Samsung Gear VR",
-            subtitle: "Frost White",
-            quantity: 1,
-            price: 99.99,
+            title: "Sandwich Jr Pollo",
+            subtitle: "Sin Tomate",
+            quantity: 2,
+            price: 10.00,
             currency: "USD",
-            image_url: "http://messengerdemo.parseapp.com/img/gearvrsq.png"
+            image_url: "http://d37uu5vx6wkhnq.cloudfront.net/wp-content/uploads/2015/01/elchurry1-1421945921-357x222.jpg"
           }],
           address: {
-            street_1: "1 Hacker Way",
-            street_2: "",
-            city: "Menlo Park",
-            postal_code: "94025",
-            state: "CA",
+            street_1: "V27 Calle 27 Urb.",
+            street_2: "Metropolis",
+            city: "Carolina",
+            postal_code: "00987",
+            state: "PR",
             country: "US"
           },
           summary: {
-            subtotal: 698.99,
-            shipping_cost: 20.00,
-            total_tax: 57.67,
-            total_cost: 626.66
+            subtotal: 33.78,
+            shipping_cost: 10.00,
+            total_tax: 1.45,
+            total_cost: 45.23
           },
           adjustments: [{
-            name: "New Customer Discount",
-            amount: -50
-          }, {
-            name: "$100 Off Coupon",
-            amount: -100
+            name: "Enrique Love Discount",
+            amount: -10
           }]
         }
       }
